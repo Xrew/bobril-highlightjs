@@ -1,0 +1,23 @@
+{
+  "name": "bobril-highlightjs",
+  "version": "0.0.1",
+  "description": "Bobril module to using popular library Highlight.js.",
+  "main": "index.js",
+  "author": "Lukáš Pohl, Tomáš Sychra",
+  "typescript": {
+    "main": "index.ts"
+  },
+  "devDependencies": {
+    "bobril-flex-ie10": "^1.1.1",
+    "bobril-m": "^0.8.0",
+    "bower": "^1.8.0"
+  },
+  "bobril": {
+    "title": "Bobril Highlight.js",
+    "example": "examples/example.ts"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "build-doc": "bb b -d docs"
+  }
+}
