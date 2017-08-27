@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-bobril-flex-ie10@*, bobril-flex-ie10@^1.1.1:
+bobril-flex-ie10@*:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/bobril-flex-ie10/-/bobril-flex-ie10-1.1.1.tgz#181b998f942b55036934f0a11e7d85d8689e9690"
   dependencies:
@@ -14,9 +14,9 @@ bobril-m-icons@*:
   dependencies:
     bobril "*"
 
-bobril-m@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.8.0.tgz#43f2f79f6baf4518ee8431f0353feb8a7a788597"
+bobril-m@*:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/bobril-m/-/bobril-m-0.11.0.tgz#8408bcccd81ef94028a743c9b1b531d7066618d6"
   dependencies:
     bobril "*"
     bobril-flex-ie10 "*"
@@ -27,7 +27,7 @@ bobril@*:
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/bobril/-/bobril-7.6.1.tgz#635add7376e2d5b074867f5a641633a33c2976b7"
 
-bower@^1.8.0:
+bower@*:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/bower/-/bower-1.8.0.tgz#55dbebef0ad9155382d9e9d3e497c1372345b44a"
 

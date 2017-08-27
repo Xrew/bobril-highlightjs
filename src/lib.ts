@@ -1,15 +1,10 @@
 import * as b from 'bobril';
+import {LanguageEnum} from './languages';
 
 b.asset('../bower_components/highlightcss/index.css');
 b.asset('../bower_components/highlight/index.js');
 
 declare var hljs: any;
-
-export enum LanguageEnum {
-    Csp,
-    Javascript,
-    Typescript
-}
 
 export interface IHighlightConfiguration {
     language: LanguageEnum,
