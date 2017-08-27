@@ -1,8 +1,8 @@
 import * as b from 'bobril';
 import {LanguageEnum} from './languages';
 
-b.asset('../bower_components/highlightcss/index.css');
-b.asset('../bower_components/highlight/index.js');
+b.asset('../external/highlightPack/highlight.pack.js');
+b.asset('../external/highlightPack/styles/default.css');
 
 declare var hljs: any;
 
